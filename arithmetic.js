@@ -1,4 +1,4 @@
-function dogToHumanAge() {
+function dogAgeInHumanAge() {
     var dogAge = prompt("How old is your dog? ");
     
     dogAge = Number(dogAge);
@@ -7,6 +7,6 @@ function dogToHumanAge() {
     {
         var humanAge = (dogAge - 2) * 4 + 21;
     
-        alert("Your dog is " + humanAge + " In human age");
+        alert("Your dog is " + humanAge + " in human age");
     }
 }
