@@ -1,5 +1,5 @@
 function characterCount() {
-    var tweet = prompt("Tweet character counter: ");
+    var tweet = prompt("Compose your tweet:  ");
     const characterLimit = 140;
     var characterCount =  (tweet == null) ? 0 : tweet.length;
 
