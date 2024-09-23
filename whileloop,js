@@ -1,0 +1,18 @@
+function numberOfBottlesOnTheWall(){
+    var numberOfBottles = 99;
+    var nuberOfBottlesText;
+    var bottleText = "bottles";
+
+    while(numberOfBottles > 0) {
+    
+        bottleText = (numberOfBottles === 1) ? "bottle" : "bottles";
+        console.log(numberOfBottles + " " + bottleText +" of beer on the wall, " + numberOfBottles + " " + bottleText + " of beer." );
+        
+        numberOfBottles--; 
+        nuberOfBottlesText = (numberOfBottles === 0) ? "no more" :  numberOfBottles.toString() ;
+        console.log("Take one down and pass it around, " + nuberOfBottlesText + " " + bottleText + " of beer on the wall.");
+    
+    }
+    console.log("No more bottles of beer on the wall, no more bottles of bear");
+    console.log("Go to the store and buy some more, 99 bottles of beer on the wall.");
+}
